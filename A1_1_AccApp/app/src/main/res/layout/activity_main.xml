@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.rice.ubicomp.HelloApp.edu.rice.ubicomp.AccApp.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:text="Hello everyone :)"
+        android:textSize="40dp"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Text"
+        android:id="@+id/button1"
+        android:onClick="changeText"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="83dp"
+        android:layout_height="wrap_content"
+        android:text="X:" />
+
+    <TextView
+        android:id="@+id/textView_x"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+    <!-- <com.jjoe64.graphview.GraphView
+         android:layout_width="match_parent"
+         android:layout_height="200dip"
+         android:id="@+id/graph" />
+ -->
+</LinearLayout>
