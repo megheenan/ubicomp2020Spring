@@ -59,15 +59,13 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         if (sensor.getType() == Sensor.TYPE_ACCELEROMETER)
         {
 
-            if (sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
-                float x = event.values[0];
+            float x = event.values[0];
 
-                Log.d("x:", Float.toString(x));
+            Log.d("x:", Float.toString(x));
 
-                mXAccelerationTextView = findViewById(R.id.textView_x);
+            mXAccelerationTextView = findViewById(R.id.textView_x);
 
-                mXAccelerationTextView.setText(Float.toString(x));
-            }
+            mXAccelerationTextView.setText(Float.toString(x));
 
         }
 
